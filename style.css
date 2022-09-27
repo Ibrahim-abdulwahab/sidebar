@@ -42,22 +42,46 @@ html {
 .side-menu{
     width: 400px;
     height: 100vh;
-    background-color: orange;
+    /* background-color: orange; */
 }
 .options{
     width:100%;
     height:50%;
-    background-color: red;
     display: flex;
     flex-direction: column;
 }
 .main-title{
-    background-color: green;
     width: 100%;
-    flex-grow: 1.2;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-size: x-large;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.title{
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-shadow: 0px 2px 8px #646464;
+}
+.title span{
+    color:hsl(205, 78%, 60%) ;
+}
+.close{
+    height: fit-content;
+    color: hsl(360, 67%, 44%);
+    background: none;
+    border: none;
+    font-size: 3rem;
+    transition: all 0.3s linear;
 }
 .option{
     background-color: yellow;
     width: 100%;
     flex-grow: 1;
+}
+.close:hover{
+    transform: rotate(360deg);
+    color: hsl(360, 71%, 66%);;
 }
