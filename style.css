@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +9,33 @@
 html {
     font-size: 10px;
     font-family:  'Poppins', sans-serif;
+}
+.side-button {
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: hsl(205, 78%, 60%);
+    transition: all 0.3s linear;
+    cursor: pointer;
+    animation: bounce 2s ease-in-out infinite;
+}
+.side-button:hover {
+    color: hsl(205, 90%, 76%);
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
