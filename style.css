@@ -39,3 +39,25 @@ html {
         transform: scale(1);
     }
 }
+.side-menu{
+    width: 400px;
+    height: 100vh;
+    background-color: orange;
+}
+.options{
+    width:100%;
+    height:50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+.main-title{
+    background-color: green;
+    width: 100%;
+    flex-grow: 1.2;
+}
+.option{
+    background-color: yellow;
+    width: 100%;
+    flex-grow: 1;
+}
