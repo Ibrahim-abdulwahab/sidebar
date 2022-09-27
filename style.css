@@ -12,9 +12,9 @@ html {
 }
 .side-button {
     position: fixed;
-    top: 2rem;
-    right: 3rem;
-    font-size: 2rem;
+    top: 1em;
+    right: 1.5em;
+    font-size: 3em;
     background: transparent;
     border-color: transparent;
     color: hsl(205, 78%, 60%);
@@ -93,4 +93,20 @@ html {
 .close:hover{
     transform: rotate(360deg);
     color: hsl(360, 71%, 66%);;
+}
+.icons{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: relative;
+    top:38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: hsl(205, 78%, 60%);
+    
+}
+.icons i{
+    margin-left: 15px;
 }
