@@ -45,10 +45,7 @@ html {
     transition:all 0.3s linear; 
     translate:-400px;
 }
-.show-side-menu{
-    width: 400px;
-    height: 100vh;
-    transition: all 0.3s linear;
+.show{
     translate: 0px;
 }
 .options{
