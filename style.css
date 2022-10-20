@@ -43,7 +43,8 @@ html {
     width: 400px;
     height: 100vh;
     transition:all 0.3s linear; 
-    translate:-400px;
+    background-color: white;
+    translate:-800px;
 }
 .show{
     translate: 0px;
@@ -97,7 +98,8 @@ html {
 }
 .close:hover{
     transform: rotate(360deg);
-    color: hsl(360, 71%, 66%);;
+    color: hsl(360, 71%, 66%);
+    cursor: pointer;
 }
 .icons{
     width: 100%;
@@ -114,4 +116,17 @@ html {
 }
 .icons i{
     margin-left: 15px;
+    transition:all 0.3s linear;
+}
+.icons i:hover{
+    color:black;
+    cursor: pointer;
+}
+body{
+    background-color: hsl(210, 36%, 96%);
+}
+@media only screen and (max-width:800px) {
+    .side-menu{
+        width: 100%;
+    }
 }
